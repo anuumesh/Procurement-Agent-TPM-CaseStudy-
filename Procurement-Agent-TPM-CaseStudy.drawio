@@ -1,0 +1,302 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2" pages="3">
+  <diagram name="Vendor Evaluation AI Flow" id="RSS196zl7ZxLPNoesayF">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" value="ERP / Vendor Inputs" vertex="1">
+          <mxGeometry height="150" width="1360" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" value="Procurement Agent Platform" vertex="1">
+          <mxGeometry height="170" width="1360" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" value="AI / ML Services" vertex="1">
+          <mxGeometry height="160" width="1360" x="20" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" value="Human Oversight" vertex="1">
+          <mxGeometry height="150" width="1360" x="20" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Vendor Submissions Received&#xa;- Technical Proposal&#xa;- Pricing Docs&#xa;- Compliance Forms" vertex="1">
+          <mxGeometry height="60" width="200" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Document Ingestion &amp;&#xa;Normalization" vertex="1">
+          <mxGeometry height="60" width="230" x="300" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Score Breakdown +&#xa;Evidence Mapping" vertex="1">
+          <mxGeometry height="60" width="240" x="580" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Classification &amp;&#xa;Entity Extraction" vertex="1">
+          <mxGeometry height="60" width="230" x="580" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-9" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" value="Mandatory&#xa;Compliance Met?" vertex="1">
+          <mxGeometry height="80" width="140" x="860" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Auto Flag /&#xa;Clarification Request" vertex="1">
+          <mxGeometry height="60" width="180" x="860" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Multi-Factor&#xa;AI Scoring Engine" vertex="1">
+          <mxGeometry height="60" width="230" x="1080" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Evaluation Committee&#xa;Review" vertex="1">
+          <mxGeometry height="60" width="230" x="580" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Award Recommendation&#xa;Package" vertex="1">
+          <mxGeometry height="60" width="230" x="860" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;spacing=8;" value="Oracle Fusion&#xa;Award Update" vertex="1">
+          <mxGeometry height="60" width="230" x="1080" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;fontStyle=1;spacing=8;align=center;verticalAlign=middle;" value="Audit Log Store&#xa;(Immutable)" vertex="1">
+          <mxGeometry height="350" width="130" x="1230" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-16" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-5" style="endArrow=block;html=1;strokeColor=#111827;" target="emGQBg1Z9wTHUuafgQy2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-17" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-6" style="endArrow=block;html=1;strokeColor=#111827;" target="emGQBg1Z9wTHUuafgQy2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-18" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-8" style="endArrow=block;html=1;strokeColor=#111827;" target="emGQBg1Z9wTHUuafgQy2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-19" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-9" style="endArrow=block;html=1;strokeColor=#111827;fontSize=10;" target="emGQBg1Z9wTHUuafgQy2-7" value="YES">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-20" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-7" style="endArrow=block;html=1;strokeColor=#111827;" target="emGQBg1Z9wTHUuafgQy2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-21" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-12" style="endArrow=block;html=1;strokeColor=#111827;" target="emGQBg1Z9wTHUuafgQy2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-22" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-13" style="endArrow=block;html=1;strokeColor=#111827;" target="emGQBg1Z9wTHUuafgQy2-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-23" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-9" style="endArrow=block;html=1;strokeColor=#111827;fontSize=10;" target="emGQBg1Z9wTHUuafgQy2-10" value="NO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-24" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-10" style="endArrow=block;html=1;strokeColor=#111827;dashed=1;fontSize=10;" target="emGQBg1Z9wTHUuafgQy2-5" value="Clarify / Resubmit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-25" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-8" style="endArrow=block;html=1;strokeColor=#111827;fontSize=10;" target="emGQBg1Z9wTHUuafgQy2-11" value="Score">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-26" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-6" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" target="emGQBg1Z9wTHUuafgQy2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-27" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-11" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" target="emGQBg1Z9wTHUuafgQy2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-28" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-12" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" target="emGQBg1Z9wTHUuafgQy2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="emGQBg1Z9wTHUuafgQy2-29" edge="1" parent="1" source="emGQBg1Z9wTHUuafgQy2-13" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" target="emGQBg1Z9wTHUuafgQy2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Security Trust Boundary" id="uNvj16LpEmXils-pVoIS">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Identity -->
+        <mxCell id="idp" value="ADFS / Azure AD Federation (SSO + MFA)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="500" y="10" width="300" height="40" as="geometry" />
+        </mxCell>
+        <!-- Zones -->
+        <mxCell id="zA" value="Public Edge Zone (DMZ)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="1300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zB" value="Private Application Zone" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="1300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zC" value="Restricted AI Zone" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="1300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="zD" value="Confidential Data Zone" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;fontStyle=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="1300" height="160" as="geometry" />
+        </mxCell>
+        <!-- DMZ components -->
+        <mxCell id="apigw" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="100" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="waf" value="WAF" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <!-- App zone services -->
+        <mxCell id="rfp" value="RFP Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eval" value="Evaluation Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="comp" value="Compliance Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wf" value="Workflow Engine" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="750" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <!-- AI zone services -->
+        <mxCell id="llm" value="LLM Service (Azure OpenAI)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ar" value="Arabic NLP Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rec" value="Recommendation Engine" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <!-- Data zone stores -->
+        <mxCell id="dl" value="Procurement Data Lake&#xa;(ADLS Gen2)" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="odb" value="Operational DB" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="620" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vec" value="Vector Store" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="620" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="alog" value="Audit Logs (Immutable)" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="620" width="220" height="70" as="geometry" />
+        </mxCell>
+        <!-- External Oracle (outside zone, right side) -->
+        <mxCell id="oracle" value="Oracle Fusion ERP&#xa;(External System)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="260" width="220" height="60" as="geometry" />
+        </mxCell>
+        <!-- Connectors -->
+        <mxCell id="sidp" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="idp" target="apigw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sedge" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="apigw" target="rfp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sappai" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="rfp" target="llm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sappdata" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="eval" target="odb">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saidata" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="llm" target="vec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="saudit" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" edge="1" parent="1" source="comp" target="alog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Outbound to Oracle via Workflow Engine -->
+        <mxCell id="soracle" value="Outbound (Controlled)" style="endArrow=block;html=1;strokeColor=#111827;fontSize=10;" edge="1" parent="1" source="wf" target="oracle">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Data Pipeline to AI Training" id="SVDwbANs4gCSRFIaA1DI">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Sources -->
+        <mxCell id="src1" value="Oracle Fusion ERP" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="src2" value="Policy / Clause Repositories" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <!-- Ingestion -->
+        <mxCell id="ing" value="Batch + Incremental&#xa;Data Ingestion" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="240" height="60" as="geometry" />
+        </mxCell>
+        <!-- Raw Zone -->
+        <mxCell id="raw" value="Raw Data Zone&#xa;(ADLS Gen2)" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <!-- Cleansing -->
+        <mxCell id="clean" value="Cleansing &amp;&#xa;Quality Validation" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="150" width="240" height="60" as="geometry" />
+        </mxCell>
+        <!-- Curated Zone -->
+        <mxCell id="cur" value="Curated Data Zone" style="shape=cylinder;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="140" width="200" height="90" as="geometry" />
+        </mxCell>
+        <!-- Feature Eng -->
+        <mxCell id="feat" value="Feature / Label&#xa;Engineering" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="260" height="60" as="geometry" />
+        </mxCell>
+        <!-- Privacy Gate -->
+        <mxCell id="pii" value="PII Masking &amp;&#xa;Compliance Review" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="260" height="60" as="geometry" />
+        </mxCell>
+        <!-- Training Dataset Store -->
+        <mxCell id="ds" value="Training Dataset&#xa;Registry (Versioned)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="860" y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+        <!-- Training -->
+        <mxCell id="train" value="Model Training" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="300" y="470" width="240" height="60" as="geometry" />
+        </mxCell>
+        <!-- Validation -->
+        <mxCell id="val" value="Model Validation&#xa;(Accuracy/Bias/Legal)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="470" width="240" height="60" as="geometry" />
+        </mxCell>
+        <!-- Registry -->
+        <mxCell id="reg" value="Model Registry&#xa;(Versioned + Approved)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="470" width="240" height="60" as="geometry" />
+        </mxCell>
+        <!-- Deployment -->
+        <mxCell id="dep" value="Inference Deployment (AKS)&#xa;Canary + Monitoring" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#111827;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="620" width="260" height="60" as="geometry" />
+        </mxCell>
+        <!-- Governance Strip -->
+        <mxCell id="gov" value="Audit Lineage  |  Model Drift Monitoring  |  Security Controls" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#4B5563;fillColor=#F3F4F6;align=center;verticalAlign=middle;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="1000" height="60" as="geometry" />
+        </mxCell>
+        <!-- Connectors -->
+        <mxCell id="p1" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="src1" target="ing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="src2" target="ing">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="ing" target="raw">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="raw" target="clean">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="clean" target="cur">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="cur" target="feat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p7" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="feat" target="pii">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p8" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="pii" target="ds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p9" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="ds" target="train">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p10" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="train" target="val">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p11" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="val" target="reg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p12" style="endArrow=block;html=1;strokeColor=#111827;" edge="1" parent="1" source="reg" target="dep">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Governance dashed links -->
+        <mxCell id="g1" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" edge="1" parent="1" source="raw" target="gov">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" edge="1" parent="1" source="pii" target="gov">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" style="endArrow=open;html=1;strokeColor=#111827;dashed=1;" edge="1" parent="1" source="reg" target="gov">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
