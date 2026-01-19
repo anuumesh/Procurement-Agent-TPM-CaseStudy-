@@ -1,1 +1,37 @@
+<mxfile>
+  <diagram name="Integration Points">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <mxCell id="a" value="Procurement Agent Platform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="320" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="b" value="Oracle Fusion ERP&#10;(Procurement + Finance)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="c" value="ADFS / Identity Federation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="260" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="d" value="Government SIEM / Audit Systems (Optional)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="320" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=block;html=1;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;" edge="1" parent="1" source="a" target="c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;" edge="1" parent="1" source="a" target="d">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
 
