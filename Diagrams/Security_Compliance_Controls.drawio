@@ -1,1 +1,31 @@
+<mxfile>
+  <diagram name="Security and Compliance Controls">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <mxCell id="s1" value="Identity & Access&#10;- ADFS SSO&#10;- RBAC (Entity + Role)&#10;- Least Privilege" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s2" value="Data Protection&#10;- TLS + At-Rest Encryption&#10;- Key Management&#10;- Retention Policies" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s3" value="Auditability&#10;- Immutable Event Store&#10;- Prompt/Model Versioning&#10;- Approval Workflows" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="70" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s4" value="Operations&#10;- Monitoring + Alerts&#10;- SIEM Forwarding&#10;- Incident Runbooks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s5" value="Change Management&#10;- CI/CD with Gates&#10;- Security Reviews in Sprint&#10;- Rollback Strategy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="320" height="110" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
 
