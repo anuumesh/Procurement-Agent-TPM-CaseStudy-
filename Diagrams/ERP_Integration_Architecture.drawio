@@ -1,0 +1,30 @@
+<mxfile>
+  <diagram name="ERP Integration Architecture">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="a" value="Procurement Agent Platform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="320" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="b" value="Integration Adapter Layer&#10;(Canonical Mapping + Retry Logic)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="320" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="c" value="Oracle Fusion ERP&#10;(Procurement + Finance Modules)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="320" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="d" value="Audit & Logging Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="200" width="260" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" style="endArrow=block;html=1;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;" edge="1" parent="1" source="b" target="d">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
