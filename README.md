@@ -52,15 +52,15 @@ Target outcomes defined for the program:
 These decks represent the **primary executive submission artifacts**:
 
 ### Part A — Program Delivery & Planning
-➡ Project Kickoff Deck  
+ Project Kickoff Deck  
 `/Slides/Part_A_Project_Kickoff.pptx`
 
 ### Part B — Technical Architecture & AI Implementation
-➡ Technical Implementation Deck  
+Technical Implementation Deck  
 `/Slides/Part_B_Technical_Implementation.pptx`
 
 ### Part C — Risk Management & Executive Response
-➡ Risk Scenario Presentation  
+  Risk Scenario Presentation  
 `/Slides/Part_C_Risk_Management.pptx`
 
 ---
@@ -112,7 +112,7 @@ Contains:
 
 ## Author
 
-Prepared by: **Anuumesh**  
+Prepared by: **umesh**  
 Role: Technical Program Manager (AI Programs)
 
 This repository reflects enterprise delivery practices aligned with government technology programs and consulting delivery standards.
