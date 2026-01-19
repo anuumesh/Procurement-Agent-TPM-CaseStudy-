@@ -1,1 +1,61 @@
+<mxfile>
+  <diagram name="High Level Architecture">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <mxCell id="10" value="Experience Layer&#10;- Procurement Portal&#10;- Admin Console" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="260" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="20" value="API Gateway / Access Layer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="30" value="Orchestration Layer&#10;- Workflow Orchestrator&#10;- Tool Router&#10;- Policy Guardrails" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="40" value="AI Services&#10;- LLM (Draft/Score)&#10;- RAG Retrieval&#10;- Translation + Arabic NLP&#10;- Evaluation Checks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="360" height="140" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="50" value="Integration Services&#10;- Oracle Fusion Adapter&#10;- Canonical Model Mapper&#10;- Retry/Queue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="60" value="Data & Audit Stores&#10;- Curated Data Store&#10;- Vector Index&#10;- Audit Event Store (Immutable)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="220" width="320" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="70" value="Oracle Fusion ERP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="300" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e1" style="endArrow=block;html=1;" edge="1" parent="1" source="10" target="20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" style="endArrow=block;html=1;" edge="1" parent="1" source="20" target="30">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" style="endArrow=block;html=1;" edge="1" parent="1" source="30" target="40">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" style="endArrow=block;html=1;" edge="1" parent="1" source="30" target="50">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" style="endArrow=block;html=1;" edge="1" parent="1" source="50" target="70">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" style="endArrow=block;html=1;" edge="1" parent="1" source="40" target="60">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" style="endArrow=block;html=1;" edge="1" parent="1" source="50" target="60">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
 
