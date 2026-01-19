@@ -1,152 +1,169 @@
-1. Program Objective
+# Procurement Agent – Delivery Plan
 
-The Procurement Agent program aims to modernize government procurement operations by automating RFP creation, improving vendor evaluation accuracy, accelerating sourcing cycles, and generating measurable cost savings while maintaining full regulatory compliance.
+## Delivery Approach
 
-Business Targets
+Given the public-sector environment and dependency on legacy systems, the project has been structured using a controlled phased rollout approach.
 
-70% reduction in RFP preparation time
+This enables early delivery of high-value automation capabilities while progressively de-risking data quality, system integration, and regulatory approval processes.
 
-40% improvement in evaluation accuracy
+---
 
-50% procurement cycle reduction
+## Phase 1 – MVP (Gitex Release)
 
-AED 5M annual savings across entities
+### Core Objectives
 
-2. Delivery Phases & Milestones
-Phase Breakdown
-Phase	Target Date	Key Outcomes
-Phase 1	Gitex	MVP release, RFP automation, ERP integration POC
-Phase 2	December	Vendor analytics, Arabic NLP enhancement, compliance engine
-Phase 3	Q1 2026	Optimization, scale rollout, AI sourcing agent automation
-3. Work Breakdown Structure (WBS)
-Phase 1 — Foundation (Gitex)
+The primary focus of Phase 1 is to demonstrate tangible automation impact while maintaining delivery reliability.
 
-Program kickoff & governance setup
+Key deliverables include:
 
-Procurement data ingestion pipeline
+- Automated RFP document generation
+- Initial vendor evaluation scoring model
+- Oracle Fusion ERP integration (read/write workflows)
+- Arabic and English document generation
+- Security baseline and access controls
 
-Oracle Fusion ERP integration (read-only)
+---
 
-RFP generation MVP
+### Phase 1 Work Breakdown Structure
 
-English document automation
+**Program Setup**
 
-Security baseline & IAM integration
+- Governance framework establishment  
+- Architecture design approval  
+- Security baseline alignment  
 
-Pilot deployment
+**Data Enablement**
 
-Phase 2 — Intelligence Layer (December)
+- Procurement data profiling  
+- Data cleansing pipeline development  
+- Oracle schema normalization  
 
-Vendor performance analytics engine
+**AI Platform Development**
 
-Arabic NLP integration
+- RFP generation pipeline  
+- Evaluation scoring model  
+- Arabic NLP preprocessing module  
 
-Compliance rule automation
+**Integration Layer**
 
-Recommendation engine
+- ERP API integration  
+- Identity federation (ADFS)  
+- Role-based access control  
 
-Real-time dashboards
+**Testing & Validation**
 
-Expanded ERP write-back APIs
+- User acceptance testing  
+- Performance benchmarking  
+- Security penetration testing  
 
-Phase 3 — Optimization (Q1 2026)
+---
 
-Autonomous sourcing agent
+## Major Milestones
 
-Predictive cost optimization
+| Milestone | Target Timeline |
+---------------------------
+Architecture Approval | Week 2
+Data Pipeline Ready | Week 4
+AI MVP Functional | Week 6
+ERP Integration Complete | Week 7
+Security Certification | Week 8
+Gitex Go-Live | Week 9
 
-Multi-entity rollout
+---
 
-Performance tuning
+## Critical Path Dependencies
 
-SLA hardening
+The following dependency chain has been identified as schedule-critical:
 
-4. Critical Path Dependencies
-ERP Integration → Data Cleansing → NLP Training → RFP Engine → Compliance Engine → Production Release
+Oracle Fusion API Access  
+→ Historical Data Cleansing  
+→ AI Model Training  
+→ Integration Testing  
+→ Security Accreditation  
+→ Production Deployment  
 
+Delays in any of these stages will directly impact the Gitex delivery milestone.
 
-High Risk Dependencies:
+---
 
-Oracle API readiness
+## Resource Allocation Strategy
 
-Arabic dataset availability
+Given the 12 FTE constraint, the delivery team has been structured to balance technical delivery capacity with governance and compliance oversight.
 
-Security accreditation timeline
+| Role | Allocation |
+-------------------------
+Technical Program Manager | 1
+Product Manager | 1
+AI Engineers | 3
+Backend Engineers | 3
+Data Engineers | 2
+Security Engineer | 1
+QA Engineer | 1
 
-5. Resource Allocation (12 FTE Cap)
-Role	Count
-TPM	1
-Product Manager	1
-Solution Architect	1
-Backend Engineers	3
-AI/ML Engineers	3
-Frontend Engineer	1
-DevOps Engineer	1
-QA Engineer	1
-6. Top Risk Register (Initial)
-Risk	Impact	Mitigation
-ERP API instability	High	API caching, abstraction layer
-Arabic NLP accuracy	High	Hybrid vendor + open-source approach
-Data quality issues	Medium	Dedicated cleansing sprint
-Security compliance delay	Medium	Parallel audit preparation
-Change requests	Medium	Formal change control board
-7. Phase Gate (Go / No-Go Criteria)
-Phase 1 Gate (Gitex)
+Where required, short-term specialist vendors will be engaged for Arabic NLP fine-tuning and Oracle ERP advisory support.
 
-✔ RFP automation accuracy >90%
-✔ ERP read integration stable
-✔ System response <8 sec
-✔ Security baseline approval
+---
 
-Phase 2 Gate
+## Risk Management – Priority Risks
 
-✔ Arabic NLP accuracy >95%
-✔ Vendor analytics operational
-✔ Compliance validation passed
+### ERP Integration Risk  
+Oracle Fusion APIs are partially documented and inconsistent across environments.
 
-Phase 3 Gate
+Mitigation:  
+An abstraction layer will be implemented to isolate downstream services from ERP instability. Caching and asynchronous retries will be used to protect system availability.
 
-✔ SLA 99.5% uptime
-✔ Cost savings validation
-✔ Government-wide rollout readiness
+---
 
-8. Stakeholder Communication Matrix
-Stakeholder	Frequency	Channel	Owner
-Gov Procurement Leadership	Weekly	Steering call	TPM
-Department of Finance	Bi-weekly	Review meeting	Product Lead
-Engineering Teams	Daily	Standups	Tech Lead
-Legal & Compliance	Weekly	Risk review	TPM
-AI Factory Leadership	Monthly	Exec dashboard	TPM
-9. Governance Model
-Steering Committee
+### Data Quality Risk  
+Historical procurement data contains estimated 15–20% inconsistencies.
 
-AI Factory Director
+Mitigation:  
+Automated cleansing rules combined with targeted manual sampling will be implemented during Phase 1.
 
-Procurement Authority CIO
+---
 
-Finance Dept Representative
+### Arabic Legal Language Accuracy Risk  
 
-Security Officer
+Mitigation:  
+Fine-tuning will be performed using government legal and procurement document datasets to improve contextual understanding.
 
-Delivery Committee
+---
 
-TPM
+### Security Approval Timeline Risk  
 
-Product Lead
+Mitigation:  
+Security teams will be embedded into sprint planning from project initiation to avoid late-stage compliance bottlenecks.
 
-Engineering Lead
+---
 
-Architecture Lead
+### Budget Control Risk  
 
-10. Executive Reporting Dashboard (Template)
-Program Health Snapshot
-Metric	Status
-Schedule	🟢 On Track
-Budget	🟡 Slight Variance
-Risk	🟡 Medium
-Quality	🟢 Stable
-Budget Tracker
-Allocated: AED 2.8M
-Consumed: AED 1.1M
-Forecast: AED 2.6M
-Variance Buffer: AED 200K
+Mitigation:  
+Phase-based funding gates and milestone-based vendor payments will be enforced.
+
+---
+
+## Go / No-Go Decision Gates
+
+### Phase 1 Release Criteria
+
+- RFP document generation accuracy ≥ 95%  
+- ERP transaction latency under 5 seconds  
+- Security penetration testing approval  
+- Business user sign-off  
+
+---
+
+### Phase 2 Expansion Criteria
+
+- Vendor scoring accuracy improvement ≥ 40%  
+- System uptime stable at 99.5%  
+- Multi-entity onboarding readiness  
+
+---
+
+### Phase 3 Enterprise Rollout Criteria
+
+- Verified annual cost savings ≥ AED 5M  
+- Performance stability under peak workloads  
+- Regulatory compliance audit approval  
