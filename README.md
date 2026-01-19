@@ -1,7 +1,23 @@
+## Repository Navigation
+
+### Executive Deliverables
+- [Project Kickoff Deck (Part A)](Slides/Part_A_Project_Kickoff.pptx)
+- [Technical Architecture Deck (Part B)](Slides/Part_B_Technical_Implementation.pptx)
+- [Risk Management Deck (Part C)](Slides/Part_C_Risk_Management.pptx)
+
+### Written Submissions
+- [Part A – Project Planning](Part-A_Project-Planning)
+- [Part B – Technical Implementation](Part-B_Technical-Implementation)
+- [Part C – Risk Scenarios](Part-C_Risk-Scenarios)
+
+### Architecture Diagrams
+- [Diagrams Folder](Diagrams)
+
+
+
 # Procurement-Agent-TPM-CaseStudy-
 Procurement-Agent-TPM-CaseStudy for Clients
 # AI Factory – Procurement Agent Program Delivery Case Study
-
 **Role:** Technical Program Manager  
 **Organization:** Abu Dhabi Government – AI Factory  
 **Project:** Procurement Agent Platform  
