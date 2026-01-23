@@ -8,6 +8,21 @@ This scenario presents both quality and commercial risk requiring immediate stra
 
 ---
 
+# Risk Ownership
+
+Primary Owner:
+TPM – Program coordination and executive communication
+
+Technical Owner:
+AI/ML Lead – Model performance remediation
+
+Business Owner:
+Procurement Legal Lead – Validation workflow oversight
+
+Vendor Management Owner:
+Commercial Lead – Contract renegotiation and performance enforcement
+
+
 ## Immediate Action Plan
 
 ### 1. Conduct Root Cause Analysis Workshop
@@ -91,6 +106,45 @@ Expected budget impact maintained within existing contingency buffer (under 10%)
 This preserves bilingual functionality while maintaining compliance standards.
 
 ---
+
+# AI Risk Classification
+
+High-Risk Use Case:
+Arabic legal interpretation and contract-related outputs
+
+Medium-Risk Use Case:
+Arabic RFP drafting and summarization
+
+Control Strategy:
+High-risk outputs require mandatory human validation.
+Medium-risk outputs allowed with sampling-based review.
+
+# Decision Authority
+
+Model Architecture Changes:
+Approved by AI Governance Committee
+
+Scope Changes:
+Approved by Steering Committee
+
+Validation Workflow Changes:
+Approved by Legal Compliance Office
+
+# Post-Phase 1 Improvement Plan
+
+Month 1–2:
+Expand labeled Arabic datasets
+
+Month 3:
+Retrain domain-specific language model
+
+Month 4:
+Reduce manual validation coverage by 30%
+
+Quarterly:
+Governance review of automation readiness
+
+
 
 ## Alternative Solutions and Trade-Off Analysis
 
