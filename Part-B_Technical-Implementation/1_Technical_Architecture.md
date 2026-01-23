@@ -43,22 +43,97 @@ Design principles applied:
 - Audit event store (immutable logs, approvals, model versions)
 
 **E. Platform & Security Layer**
+
+# Cost Governance Controls
+
+# Monitoring:
+- Compute consumption
+- AI inference usage
+- Storage growth
+
+# Controls:
+- Budget alerts
+- Resource quotas per entity
+- Cost allocation tagging
+
+# Reporting:
+Monthly cost optimization review with finance stakeholders.
+
 - Identity via ADFS (federation)
 - Key management and secrets vault
 - Centralized logging, monitoring, SIEM forwarding
 - CI/CD pipelines with gated releases
+- Release Governance Workflow
+
+1. Automated testing validation
+2. Security scan approval
+3. Compliance checkpoint
+4. TPM release signoff
+5. Steering Committee approval (for production)
+
+Production deployments restricted to approved release windows.
+
+- Observability Architecture
+
+Metrics:
+- API latency
+- ERP integration success rates
+- AI inference response times
+
+Logs:
+- Application logs
+- Security audit logs
+- User action logs
+
+Tracing:
+- End-to-end request tracing across agent, ERP, AI services
+
+Dashboards:
+Centralized executive dashboard for operational health visibility.
 
 ---
+## Environment Segmentation Strategy
+
+Separate isolated environments will be maintained:
+
+Development:
+- Feature development and experimentation
+- Synthetic and masked data only
+
+Testing / Staging:
+- Integration testing with Oracle sandbox
+- Security validation
+- Performance benchmarking
+
+Production:
+- Live government workloads
+- Restricted access controls
+- Full audit logging enabled
+
+Promotion between environments requires gated approval workflows.
 
 ## 3) Integration Points with Existing Systems
 
 ### Oracle Fusion ERP (Primary Integration)
-Key integration patterns:
+
+# Key integration patterns:
 - **Read**: supplier master data, purchase orders, historical RFP outcomes, contracts metadata
 - **Write**: draft RFP objects, evaluation results, recommendation notes (where policy allows)
 - **Near-real-time sync**: event-driven where feasible; otherwise scheduled deltas with strict SLAs
+ERP Failure Fallback Behavior
 
-Integration considerations:
+If Oracle Fusion ERP is unavailable:
+
+- Switch system to read-only mode
+- Queue write transactions for later replay
+- Notify users of temporary limitations
+- Preserve audit traceability for delayed operations
+
+Objective:
+Maintain continuity without corrupting transactional integrity.
+
+
+# Integration considerations:
 - Legacy APIs may be inconsistent. We will implement an **anti-corruption layer**:
   - canonical procurement data model
   - schema mapping + validation
@@ -84,12 +159,27 @@ Integration considerations:
   - per-entity configuration & templates
   - per-entity encryption keys (recommended)
 
-Scale-out capabilities:
+# Scale-out capabilities:
 - horizontally scalable stateless services (orchestrator, API gateway, doc-gen)
 - separate scaling policies for:
   - inference workloads
   - retrieval workloads
   - integration workloads
+ 
+ # Disaster Recovery Strategy
+
+Recovery Objectives:
+RTO (Recovery Time Objective): 2 hours
+RPO (Recovery Point Objective): 15 minutes
+
+Controls:
+- Automated backups
+- Cross-zone replication
+- Infrastructure-as-code redeployment capability
+
+Failover Testing:
+Quarterly DR simulation exercises to validate readiness.
+
 
 ### Key Scaling Controls
 - request throttling per entity (to protect Oracle Fusion + platform stability)
@@ -115,11 +205,36 @@ Availability target alignment:
 - restricted access by role and entity boundary
 - retention rules aligned with procurement regulation and audit requirements
 - data minimization: only store what is needed for traceability and performance
+- Data Lifecycle Management
+
+Retention Policies:
+- Procurement transaction data retained as per regulatory mandate
+- Audit logs retained for minimum compliance duration
+- Temporary inference artifacts purged automatically
+
+Archival Strategy:
+Cold storage for historical RFPs and closed procurement records.
+
+Deletion Controls:
+Role-based approval required for any permanent deletion.
+
 
 ### Model & Prompt Governance
 - versioned prompts, templates, rubrics
 - approval workflow for production prompt changes
 - model version pinning per environment (dev/test/prod)
+- AI Safety Controls
+
+Hard Guardrails:
+- Prohibited content filters
+- Financial and legal output validation rules
+
+Human-in-the-Loop:
+- Mandatory approval for final RFP submissions
+- Manual override for critical procurement decisions
+
+Fallback Handling:
+Low-confidence AI outputs routed to manual review queues.
 
 ### Auditability
 Every AI output must record:
