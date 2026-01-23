@@ -10,7 +10,74 @@ The Procurement Agent is not a single model; it is a set of AI capabilities asse
 - Multilingual generation (Arabic + English)
 - Governance (traceability, audit readiness, policy alignment)
 
-The strategy below deliberately prioritizes **reliability and defensibility** over “demo magic”, because procurement decisions will be audited.
+The strategy below deliberately prioritizes **reliability and defensibility** over “demo magic”, because procurement 
+decisions will be audited.
+
+# Bias & Fairness Monitoring
+
+Controls:
+
+- Monitor vendor recommendation diversity
+- Detect repeated ranking dominance patterns
+- Compare AI recommendations vs manual baselines
+
+Mitigation:
+
+- Periodic retraining with balanced datasets
+- SME review for flagged bias cases
+
+# AI Data Residency Controls
+
+- Training and inference workloads restricted to UAE-approved cloud regions
+- No external API calls with procurement data
+- Controlled export restrictions on datasets and logs
+# Shadow AI Prevention Controls
+
+- Restrict external AI tool usage on procurement workstations
+- Enforce platform-only AI usage via network policies
+- Audit logs to track unauthorized AI access attempts
+# AI Incident Response Framework
+
+Trigger Events:
+- Incorrect vendor ranking
+- Regulatory violation
+- Hallucinated legal content
+
+Response Actions:
+- Immediate feature disable
+- Rollback to previous version
+- Incident RCA within 48 hours
+- Governance committee review
+
+# AI Risk Classification
+
+High-Risk Use Cases:
+- Vendor award recommendation
+- Compliance-sensitive document generation
+
+Medium-Risk Use Cases:
+- Internal drafting assistance
+- Policy summarization
+
+Controls:
+Higher-risk use cases require stronger validation, approval gates, and monitoring.
+
+# AI Governance Structure
+
+AI Oversight Committee:
+- CIO Office Representative
+- Legal & Compliance Lead
+- Procurement Policy Owner
+- AI Platform Lead
+
+Responsibilities:
+- Approve production AI use cases
+- Review model updates
+- Monitor compliance risks
+- Authorize expansion to new entities
+
+Review Cadence:
+Monthly governance review sessions
 
 ---
 
